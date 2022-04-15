@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Boorsok";
+  src: url("../../public/boorsok.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 900;
+  letter-spacing: 0;
+}
+
+@font-face {
+  font-family: "Eskool Regular";
+  src: url("../../public/Eskool-Regular.ttf") format("truetype");
+  font-style: normal;
+}
+
+@layer base {
+  h1,
+  h2,
+  h3 {
+    font-family: "Boorsok", system-ui, sans-serif;
+  }
+
+}
