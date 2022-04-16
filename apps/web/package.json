@@ -10,12 +10,13 @@
   },
   "dependencies": {
     "@react-three/fiber": "^8.0.11",
-    "next": "12.0.8",
+    "@types/three": "^0.139.0",
+    "next": "12.1.5",
     "next-themes": "^0.1.1",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
     "three": "^0.139.2",
-    "ui": "workspace:*"
+    "three-stdlib": "^2.9.1"
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.2",

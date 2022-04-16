@@ -1,17 +1,11 @@
-import { useTheme } from "next-themes";
-import { Header } from "../components/Header";
+import { Header, Hero } from "../components";
 
 export default function Web() {
-  const { theme, setTheme } = useTheme();
-
   return (
     <>
-      <Header
-        toggleTheme={() => setTheme(theme === "dark" ? "light" : "dark")}
-        theme={theme === "dark" ? "light" : "dark"}
-      />
-      <div className="container mx-auto">
-      
+      <Header />
+      <div className="container max-w-7xl mx-auto p-8">
+        <Hero />
       </div>
     </>
   );
